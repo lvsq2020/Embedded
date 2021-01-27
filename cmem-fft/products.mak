@@ -58,7 +58,7 @@ endif
 # below.
 
 TOOLCHAIN_LONGNAME     = arm-linux-gnueabihf
-TOOLCHAIN_INSTALL_DIR  = /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr
+TOOLCHAIN_INSTALL_DIR  =/opt/ti-processor-sdk-linux-rt-am57xx-evm-04.03.00.05/linux-devkit/sysroots/x86_64-arago-linux/usr
 TOOLCHAIN_PREFIX       = $(TOOLCHAIN_INSTALL_DIR)/bin/$(TOOLCHAIN_LONGNAME)-
 
 #### BIOS-side dependencies ####
@@ -70,7 +70,7 @@ XDC_INSTALL_DIR        = ${XDC_INSTALL_PATH}
 ti.targets.arm.elf.M4  = $(TOOLCHAIN_PATH_M4)
 ti.targets.elf.C66     = ${C6X_GEN_INSTALL_PATH}
 
-CMEM_INSTALL_DIR = /home/am57x/app/messageq-cmem-fft/ludev
+CMEM_INSTALL_DIR = /home/louis/Embedded/messageq-cmem-fft/ludev
 CMEM_LIB_INSTALL_DIR = $(CMEM_INSTALL_DIR)/__install/lib
 
 # Use this goal to print your product variables.
