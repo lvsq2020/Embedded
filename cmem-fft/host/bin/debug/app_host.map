@@ -1,0 +1,1110 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+                              bin/debug/obj/main_host.ov7A (TransportRpmsg_Factory)
+/home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+                              /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o) (MessageQ_registerTransport)
+/home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+                              /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o) (NameServer_getUInt32)
+/home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+                              bin/debug/obj/main_host.ov7A (Ipc_transportConfig)
+/home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(HeapStd.o)
+                              /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o) (HeapStd_handle)
+/home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+                              /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o) (GateMP_attach)
+/home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+                              /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o) (GateHWSpinlock_getConfig)
+/home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+                              /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o) (MultiProc_getConfig)
+/home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+                              /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o) (GateMutex_create)
+/home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+                              /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o) (LAD_findHandle)
+/home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+                              /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o) (MultiProc_getBaseIdOfCluster)
+/home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+                              /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o) (_MultiProc_initCfg)
+/home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+                              /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o) (ConnectSocket)
+/home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+                              bin/debug/obj/App.ov7A (CMEM_allocPool)
+/home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a(elf-init.oS)
+                              /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o (__libc_csu_init)
+
+Allocating common symbols
+Common symbol       size              file
+
+_GateHWSpinlock_cfgParams
+                    0xc               /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+_MultiProc_cfg      0x174             /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 bin/debug/obj/main_host.ov7A
+ .note.GNU-stack
+                0x0000000000000000        0x0 bin/debug/obj/App.ov7A
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(HeapStd.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crti.o
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+LOAD bin/debug/obj/main_host.ov7A
+LOAD bin/debug/obj/App.ov7A
+LOAD /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a
+LOAD /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a
+LOAD /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a
+LOAD /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/libpthread.so
+START GROUP
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/../../lib/libpthread.so.0
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libpthread_nonshared.a
+END GROUP
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/libc.so
+START GROUP
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/../../lib/libc.so.6
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/../../lib/ld-linux-armhf.so.3
+END GROUP
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/librt.so
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/libm.so
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib/libgcc_s.so
+START GROUP
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib/libgcc_s.so.1
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a
+END GROUP
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/libc.so
+START GROUP
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/../../lib/libc.so.6
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/../../lib/ld-linux-armhf.so.3
+END GROUP
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib/libgcc_s.so
+START GROUP
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib/libgcc_s.so.1
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a
+END GROUP
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+LOAD /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crtn.o
+                [!provide]                        PROVIDE (__executable_start, 0x10000)
+                0x0000000000010134                . = (0x10000 + SIZEOF_HEADERS)
+
+.interp         0x0000000000010134       0x19
+ *(.interp)
+ .interp        0x0000000000010134       0x19 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+
+.note.ABI-tag   0x0000000000010150       0x20
+ .note.ABI-tag  0x0000000000010150       0x20 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+
+.note.gnu.build-id
+                0x0000000000010170       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000010170       0x24 linker stubs
+
+.hash           0x0000000000010194      0x234
+ *(.hash)
+ .hash          0x0000000000010194      0x234 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000000000103c8      0x480
+ *(.dynsym)
+ .dynsym        0x00000000000103c8      0x480 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+
+.dynstr         0x0000000000010848      0x303
+ *(.dynstr)
+ .dynstr        0x0000000000010848      0x303 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+
+.gnu.version    0x0000000000010b4c       0x90
+ *(.gnu.version)
+ .gnu.version   0x0000000000010b4c       0x90 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+
+.gnu.version_d  0x0000000000010bdc        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000010bdc        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+
+.gnu.version_r  0x0000000000010bdc       0x50
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000010bdc       0x50 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+
+.rel.dyn        0x0000000000010c2c       0x10
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000010c2c        0x8 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x0000000000010c34        0x8 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_start, .)
+ *(.rel.iplt)
+ .rel.iplt      0x0000000000010c3c        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_end, .)
+
+.rela.dyn       0x0000000000010c3c        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                [!provide]                        PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end, .)
+
+.rel.plt        0x0000000000010c3c      0x210
+ *(.rel.plt)
+ .rel.plt       0x0000000000010c3c      0x210 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x0000000000010e4c        0xc
+ *(SORT(.init))
+ .init          0x0000000000010e4c        0x8 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crti.o
+                0x0000000000010e4c                _init
+ .init          0x0000000000010e54        0x4 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crtn.o
+
+.plt            0x0000000000010e58      0x348
+ *(.plt)
+ .plt           0x0000000000010e58      0x348 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+                0x0000000000010e70                pthread_mutex_unlock@@GLIBC_2.4
+                0x0000000000010e7c                calloc@@GLIBC_2.4
+                0x0000000000010e88                sem_wait@@GLIBC_2.4
+                0x0000000000010e94                pthread_mutexattr_init@@GLIBC_2.4
+                0x0000000000010ea0                strcmp@@GLIBC_2.4
+                0x0000000000010eb0                sem_post@@GLIBC_2.4
+                0x0000000000010ec0                printf@@GLIBC_2.4
+                0x0000000000010ecc                fopen@@GLIBC_2.4
+                0x0000000000010ed8                read@@GLIBC_2.4
+                0x0000000000010ee4                pthread_mutex_destroy@@GLIBC_2.4
+                0x0000000000010ef0                fflush@@GLIBC_2.4
+                0x0000000000010f00                free@@GLIBC_2.4
+                0x0000000000010f0c                pthread_mutex_lock@@GLIBC_2.4
+                0x0000000000010f18                pthread_self@@GLIBC_2.4
+                0x0000000000010f28                memcpy@@GLIBC_2.4
+                0x0000000000010f34                mmap64@@GLIBC_2.4
+                0x0000000000010f40                pthread_mutex_init@@GLIBC_2.4
+                0x0000000000010f4c                signal@@GLIBC_2.4
+                0x0000000000010f58                time@@GLIBC_2.4
+                0x0000000000010f64                pthread_mutex_trylock@@GLIBC_2.4
+                0x0000000000010f70                select@@GLIBC_2.4
+                0x0000000000010f7c                sleep@@GLIBC_2.4
+                0x0000000000010f88                recvfrom@@GLIBC_2.4
+                0x0000000000010f94                __xstat@@GLIBC_2.4
+                0x0000000000010fa0                fwrite@@GLIBC_2.4
+                0x0000000000010fac                ioctl@@GLIBC_2.4
+                0x0000000000010fb8                usleep@@GLIBC_2.4
+                0x0000000000010fc4                strcpy@@GLIBC_2.4
+                0x0000000000010fd0                gettimeofday@@GLIBC_2.4
+                0x0000000000010fdc                fread@@GLIBC_2.4
+                0x0000000000010fe8                pthread_create@@GLIBC_2.4
+                0x0000000000010ff4                open64@@GLIBC_2.4
+                0x0000000000011000                getenv@@GLIBC_2.4
+                0x000000000001100c                puts@@GLIBC_2.4
+                0x000000000001101c                malloc@@GLIBC_2.4
+                0x0000000000011028                __libc_start_main@@GLIBC_2.4
+                0x0000000000011034                strerror@@GLIBC_2.4
+                0x000000000001104c                open@@GLIBC_2.4
+                0x0000000000011058                pthread_mutexattr_settype@@GLIBC_2.4
+                0x0000000000011064                getpid@@GLIBC_2.4
+                0x0000000000011070                exit@@GLIBC_2.4
+                0x000000000001107c                sem_timedwait@@GLIBC_2.4
+                0x0000000000011088                mmap@@GLIBC_2.4
+                0x0000000000011098                fprintf@@GLIBC_2.4
+                0x00000000000110a4                fcntl@@GLIBC_2.4
+                0x00000000000110b0                __errno_location@@GLIBC_2.4
+                0x00000000000110bc                bind@@GLIBC_2.4
+                0x00000000000110c8                sem_init@@GLIBC_2.4
+                0x00000000000110d4                strncpy@@GLIBC_2.4
+                0x00000000000110e0                write@@GLIBC_2.4
+                0x00000000000110ec                fileno@@GLIBC_2.4
+                0x00000000000110f8                difftime@@GLIBC_2.4
+                0x0000000000011104                fclose@@GLIBC_2.4
+                0x0000000000011110                munmap@@GLIBC_2.4
+                0x000000000001111c                pthread_join@@GLIBC_2.4
+                0x0000000000011128                sprintf@@GLIBC_2.4
+                0x0000000000011134                getsockname@@GLIBC_2.4
+                0x0000000000011140                __isoc99_scanf@@GLIBC_2.7
+                0x000000000001114c                socket@@GLIBC_2.4
+                0x0000000000011158                eventfd@@GLIBC_2.7
+                0x0000000000011164                abort@@GLIBC_2.4
+                0x0000000000011170                close@@GLIBC_2.4
+                0x000000000001117c                send@@GLIBC_2.4
+                0x0000000000011188                connect@@GLIBC_2.4
+                0x0000000000011194                __assert_fail@@GLIBC_2.4
+
+.iplt           0x00000000000111a0        0x0
+ *(.iplt)
+ .iplt          0x00000000000111a0        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+
+.text           0x00000000000111a0     0x5ea0
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00000000000111a0       0x30 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+                0x00000000000111a0                _start
+ .text          0x00000000000111d0       0x24 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crti.o
+ .text          0x00000000000111f4       0x8c /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+ .text          0x0000000000011280      0x2dc bin/debug/obj/main_host.ov7A
+                0x0000000000011280                main
+ .text          0x000000000001155c      0x510 bin/debug/obj/App.ov7A
+                0x000000000001157a                App_create
+                0x0000000000011700                App_delete
+                0x000000000001175c                App_exec
+ .text          0x0000000000011a6c      0xe0c /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+                0x0000000000011a6c                TransportRpmsg_unbind
+                0x0000000000011c08                TransportRpmsg_put
+                0x0000000000012104                TransportRpmsg_Factory_delete
+                0x0000000000012190                TransportRpmsg_Factory_create
+                0x00000000000123a4                TransportRpmsg_bind
+                0x0000000000012604                TransportRpmsg_upCast
+                0x0000000000012608                TransportRpmsg_downCast
+                0x000000000001260c                TransportRpmsg_delete
+                0x0000000000012678                TransportRpmsg_create
+                0x00000000000127b8                TransportRpmsg_Factory_attach
+                0x0000000000012814                TransportRpmsg_Factory_detach
+                0x0000000000012874                TransportRpmsg_control
+ .text          0x0000000000012878     0x1038 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+                0x0000000000012878                MessageQ_registerTransport
+                0x00000000000128e8                MessageQ_registerTransportId
+                0x0000000000012964                MessageQ_unregisterTransport
+                0x00000000000129ac                MessageQ_unregisterTransportId
+                0x00000000000129e0                MessageQ_getConfig
+                0x0000000000012ac0                MessageQ_setup
+                0x0000000000012c3c                MessageQ_destroy
+                0x0000000000012d8c                MessageQ_Params_init
+                0x0000000000012d94                MessageQ_Params_init(void) static
+                0x0000000000012dc8                MessageQ_delete
+                0x0000000000012f5c                MessageQ_open
+                0x0000000000012fa0                MessageQ_openQueueId
+                0x0000000000012fac                MessageQ_close
+                0x0000000000012fb8                MessageQ_put
+                0x00000000000130f8                MessageQ_get
+                0x00000000000131f8                MessageQ_count
+                0x0000000000013200                MessageQ_free
+                0x0000000000013248                MessageQ_registerHeap
+                0x000000000001329c                MessageQ_unregisterHeap
+                0x00000000000132e4                MessageQ_unblock
+                0x00000000000132f4                MessageQ_shutdown
+                0x0000000000013304                MessageQ_setReplyQueue
+                0x0000000000013310                MessageQ_getQueueId
+                0x0000000000013314                MessageQ_getLocalHandle
+                0x000000000001333c                MessageQ_setMsgTrace
+                0x000000000001334c                MessageQ_sharedMemReq
+                0x0000000000013350                MessageQ_msgInit
+                0x0000000000013398                MessageQ_staticMsgInit
+                0x00000000000133ac                MessageQ_alloc
+                0x0000000000013428                _MessageQ_grow
+                0x0000000000013470                MessageQ_create
+                0x00000000000137c8                MessageQ_bind
+                0x0000000000013830                MessageQ_unbind
+ .text          0x00000000000138b0      0xcb0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+                0x00000000000138b0                NameServer_setup
+                0x0000000000013978                NameServer_destroy
+                0x0000000000013a40                NameServer_Params_init
+                0x0000000000013af8                NameServer_create
+                0x0000000000013bc4                NameServer_add
+                0x0000000000013c98                NameServer_get
+                0x0000000000013db4                NameServer_addUInt32
+                0x0000000000013e74                NameServer_getUInt32
+                0x0000000000013f88                NameServer_getLocal
+                0x000000000001407c                NameServer_getLocalUInt32
+                0x0000000000014154                NameServer_remove
+                0x000000000001422c                NameServer_removeEntry
+                0x00000000000142fc                NameServer_delete
+                0x00000000000143d0                NameServer_attach
+                0x0000000000014498                NameServer_detach
+ .text          0x0000000000014560      0x6e8 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+                0x0000000000014590                Ipc_transportConfig
+                0x00000000000145cc                Ipc_attach
+                0x0000000000014694                Ipc_detach
+                0x0000000000014760                Ipc_stop
+                0x0000000000014878                Ipc_isAttached
+                0x0000000000014890                Ipc_getConfig
+                0x0000000000014928                Ipc_start
+ .text          0x0000000000014c48       0x24 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(HeapStd.o)
+                0x0000000000014c48                HeapStd_alloc
+                0x0000000000014c50                HeapStd_free
+                0x0000000000014c58                HeapStd_handle
+                0x0000000000014c64                HeapStd_upCast
+                0x0000000000014c68                HeapStd_downCast
+ .text          0x0000000000014c6c      0xae8 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+                0x0000000000014f7c                GateMP_attach
+                0x0000000000015044                GateMP_detach
+                0x000000000001510c                GateMP_Params_init
+                0x0000000000015148                GateMP_create
+                0x0000000000015198                GateMP_open
+                0x0000000000015374                GateMP_getDefaultRemote
+                0x0000000000015380                GateMP_getLocalProtect
+                0x0000000000015384                GateMP_getRemoteProtect
+                0x0000000000015388                GateMP_isSetup
+                0x0000000000015468                GateMP_delete
+                0x00000000000154ec                GateMP_close
+                0x000000000001552c                GateMP_stop
+                0x0000000000015570                GateMP_start
+                0x0000000000015734                GateMP_enter
+                0x0000000000015744                GateMP_leave
+ .text          0x0000000000015754      0x3f8 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+                0x0000000000015754                GateHWSpinlock_leave
+                0x00000000000157a0                GateHWSpinlock_enter
+                0x0000000000015850                GateHWSpinlock_getConfig
+                0x0000000000015938                GateHWSpinlock_stop
+                0x000000000001597c                GateHWSpinlock_start
+                0x0000000000015aa4                GateHWSpinlock_Params_init
+                0x0000000000015ad8                GateHWSpinlock_create
+                0x0000000000015b30                GateHWSpinlock_delete
+ .text          0x0000000000015b4c       0xd8 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+                0x0000000000015b4c                MultiProc_getConfig
+ .text          0x0000000000015c24       0xbc /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+                0x0000000000015c24                GateMutex_enter
+                0x0000000000015c50                GateMutex_leave
+                0x0000000000015c78                GateMutex_create
+                0x0000000000015cbc                GateMutex_delete
+ .text          0x0000000000015ce0      0x5b8 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+                0x0000000000015ce0                LAD_findHandle
+                0x0000000000015d0c                LAD_getResponse
+                0x0000000000015d90                LAD_putCommand
+                0x0000000000015e30                LAD_connect
+                0x00000000000161b8                LAD_disconnect
+ .text          0x0000000000016298      0x120 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+                0x0000000000016298                MultiProc_getBaseIdOfCluster
+                0x00000000000162a8                MultiProc_getId
+                0x000000000001630c                MultiProc_getName
+                0x0000000000016348                MultiProc_getNumProcessors
+                0x0000000000016354                MultiProc_getNumProcsInCluster
+                0x0000000000016364                MultiProc_self
+                0x0000000000016374                MultiProc_setLocalId
+ .text          0x00000000000163b8       0x14 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+                0x00000000000163b8                _MultiProc_initCfg
+ .text          0x00000000000163cc      0x1a4 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+                0x00000000000163cc                ConnectSocket
+                0x00000000000164bc                SocketBindAddr
+ .text          0x0000000000016570      0xa8c /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+                0x0000000000016924                CMEM_alloc
+                0x0000000000016930                CMEM_alloc2
+                0x0000000000016934                CMEM_allocPhys
+                0x0000000000016950                CMEM_allocPhys2
+                0x0000000000016964                CMEM_registerAlloc
+                0x0000000000016a14                CMEM_map
+                0x0000000000016a60                CMEM_unmap
+                0x0000000000016a90                CMEM_allocPool
+                0x0000000000016a9c                CMEM_allocPool2
+                0x0000000000016aa0                CMEM_allocPoolPhys
+                0x0000000000016abc                CMEM_allocPoolPhys2
+                0x0000000000016ad0                CMEM_free
+                0x0000000000016b5c                CMEM_freePhys
+                0x0000000000016bb4                CMEM_export_dmabuf
+                0x0000000000016c08                CMEM_unregister
+                0x0000000000016c0c                CMEM_getPool
+                0x0000000000016c14                CMEM_getPool2
+                0x0000000000016c18                CMEM_getPhys
+                0x0000000000016c70                CMEM_cacheWbInvAll
+                0x0000000000016cbc                CMEM_cacheWb
+                0x0000000000016d18                CMEM_cacheWbInv
+                0x0000000000016d74                CMEM_cacheInv
+                0x0000000000016dd0                CMEM_getVersion
+                0x0000000000016e1c                CMEM_getBlock
+                0x0000000000016e28                CMEM_getBlockAttrs
+                0x0000000000016e30                CMEM_getNumBlocks
+                0x0000000000016e78                CMEM_exit
+                0x0000000000016eb0                CMEM_init
+ .text          0x0000000000016ffc       0x44 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a(elf-init.oS)
+                0x0000000000016ffc                __libc_csu_init
+                0x000000000001703c                __libc_csu_fini
+ .text          0x0000000000017040        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+ .text          0x0000000000017040        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crtn.o
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x0000000000017040        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000000000017040        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x0000000000017040        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x0000000000017040        0x0 linker stubs
+
+.fini           0x0000000000017040        0x8
+ *(SORT(.fini))
+ .fini          0x0000000000017040        0x4 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crti.o
+                0x0000000000017040                _fini
+ .fini          0x0000000000017044        0x4 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x0000000000017048     0x3f6c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x0000000000017048        0x4 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+                0x0000000000017048                _IO_stdin_used
+ .rodata        0x000000000001704c      0x225 bin/debug/obj/main_host.ov7A
+ *fill*         0x0000000000017271        0x3 
+ .rodata        0x0000000000017274      0x22e bin/debug/obj/App.ov7A
+ *fill*         0x00000000000174a2        0x2 
+ .rodata.str1.4
+                0x00000000000174a4      0x6db /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+ *fill*         0x0000000000017b7f        0x1 
+ .rodata        0x0000000000017b80       0x3c /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+ .rodata.str1.4
+                0x0000000000017bbc      0x924 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+                                        0x92c (size before relaxing)
+ .rodata.str1.4
+                0x00000000000184e0      0xd20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+ .rodata.str1.4
+                0x0000000000019200      0x29c /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+ .rodata        0x000000000001949c        0xf /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+ *fill*         0x00000000000194ab        0x1 
+ .rodata.str1.4
+                0x00000000000194ac      0x95d /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+ *fill*         0x0000000000019e09        0x3 
+ .rodata        0x0000000000019e0c       0x37 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+ *fill*         0x0000000000019e43        0x1 
+ .rodata.str1.4
+                0x0000000000019e44      0x23d /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+                                        0x241 (size before relaxing)
+ *fill*         0x000000000001a081        0x3 
+ .rodata        0x000000000001a084       0x14 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+ .rodata.str1.4
+                0x000000000001a098      0x100 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+                                        0x10c (size before relaxing)
+ .rodata        0x000000000001a198       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+ .rodata.str1.4
+                0x000000000001a1b8       0x35 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+ *fill*         0x000000000001a1ed        0x3 
+ .rodata.str1.4
+                0x000000000001a1f0      0x306 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+                                        0x30a (size before relaxing)
+ *fill*         0x000000000001a4f6        0x2 
+ .rodata        0x000000000001a4f8       0x39 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+ *fill*         0x000000000001a531        0x3 
+ .rodata.str1.4
+                0x000000000001a534       0x5e /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+ *fill*         0x000000000001a592        0x2 
+ .rodata.str1.4
+                0x000000000001a594      0x101 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+ *fill*         0x000000000001a695        0x3 
+ .rodata.str1.4
+                0x000000000001a698      0x91c /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+                                        0x91b (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x000000000001afb4        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x000000000001afb4        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+                [!provide]                        PROVIDE (__exidx_start, .)
+
+.ARM.exidx      0x000000000001afb4        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x000000000001afb4        0x8 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+                [!provide]                        PROVIDE (__exidx_end, .)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000001afbc        0x4
+ *(.eh_frame)
+ .eh_frame      0x000000000001afbc        0x4 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000002b000                . = DATA_SEGMENT_ALIGN (0x10000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x000000000002b000        0x0
+                [!provide]                        PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, .)
+
+.init_array     0x000000000002b000        0x4
+                0x000000000002b000                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000002b000        0x4 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+                0x000000000002b004                PROVIDE (__init_array_end, .)
+
+.fini_array     0x000000000002b004        0x4
+                [!provide]                        PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000002b004        0x4 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x000000000002b008        0x4
+ *(.jcr)
+ .jcr           0x000000000002b008        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+ .jcr           0x000000000002b008        0x4 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x000000000002b00c      0x100
+ *(.dynamic)
+ .dynamic       0x000000000002b00c      0x100 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+                0x000000000002b00c                _DYNAMIC
+                0x000000000002b10c                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.got            0x000000000002b10c      0x11c
+ *(.got.plt)
+ .got.plt       0x000000000002b10c      0x114 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+                0x000000000002b10c                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x000000000002b220        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+ *(.got)
+ .got           0x000000000002b220        0x8 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+ *(.igot)
+
+.data           0x000000000002b228     0x2270
+                [!provide]                        PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000002b228        0x4 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+                0x000000000002b228                data_start
+                0x000000000002b228                __data_start
+ .data          0x000000000002b22c        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crti.o
+ .data          0x000000000002b22c        0x4 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+                0x000000000002b22c                __dso_handle
+ .data          0x000000000002b230        0x0 bin/debug/obj/main_host.ov7A
+ .data          0x000000000002b230        0x0 bin/debug/obj/App.ov7A
+ .data          0x000000000002b230     0x20fc /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+                0x000000000002b230                TransportRpmsg_module
+                0x000000000002b234                TransportRpmsg_fxns
+                0x000000000002b240                TransportRpmsg_Factory
+                0x000000000002b250                TransportRpmsg_state
+ .data          0x000000000002d32c       0xc4 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+                0x000000000002d32c                MessageQ_module
+ .data          0x000000000002d3f0        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+ .data          0x000000000002d3f0       0x50 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+ .data          0x000000000002d440        0xc /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(HeapStd.o)
+                0x000000000002d444                HeapStd_Fxns
+ .data          0x000000000002d44c       0x14 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+ .data          0x000000000002d460       0x10 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+ .data          0x000000000002d470        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+ .data          0x000000000002d470        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+ .data          0x000000000002d470       0x18 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+ .data          0x000000000002d488        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+ .data          0x000000000002d488        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+ .data          0x000000000002d488        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+ .data          0x000000000002d488       0x10 /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+                0x000000000002d48c                CMEM_DEFAULTPARAMS
+ .data          0x000000000002d498        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a(elf-init.oS)
+ .data          0x000000000002d498        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+ .data          0x000000000002d498        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crtn.o
+
+.tm_clone_table
+                0x000000000002d498        0x0
+ .tm_clone_table
+                0x000000000002d498        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+ .tm_clone_table
+                0x000000000002d498        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+
+.data1
+ *(.data1)
+                0x000000000002d498                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x000000000002d498                . = .
+                0x000000000002d498                __bss_start = .
+                0x000000000002d498                __bss_start__ = .
+
+.bss            0x000000000002d498     0x1390
+ *(.dynbss)
+ .dynbss        0x000000000002d498        0x4 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+                0x000000000002d498                stderr@@GLIBC_2.4
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000002d49c        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+ .bss           0x000000000002d49c        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crti.o
+ .bss           0x000000000002d49c        0x1 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+ *fill*         0x000000000002d49d        0x3 
+ .bss           0x000000000002d4a0        0x4 bin/debug/obj/main_host.ov7A
+ .bss           0x000000000002d4a4       0x10 bin/debug/obj/App.ov7A
+ .bss           0x000000000002d4b4        0x1 /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+                0x000000000002d4b4                _TransportMessageQ_verbose
+ .bss           0x000000000002d4b5        0x1 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+                0x000000000002d4b5                _MessageQ_verbose
+ .bss           0x000000000002d4b6        0x1 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+                0x000000000002d4b6                _NameServer_verbose
+ *fill*         0x000000000002d4b7        0x1 
+ .bss           0x000000000002d4b8        0x8 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+                0x000000000002d4b8                _Ipc_verbose
+ .bss           0x000000000002d4c0        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(HeapStd.o)
+ .bss           0x000000000002d4c0       0x44 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+                0x000000000002d4c0                _GateMP_verbose
+ .bss           0x000000000002d504       0x10 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+                0x000000000002d504                _GateHWSpinlock_verbose
+ .bss           0x000000000002d514        0x1 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+                0x000000000002d514                _MultiProc_verbose
+ .bss           0x000000000002d515        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+ *fill*         0x000000000002d515        0x3 
+ .bss           0x000000000002d518     0x1189 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+                0x000000000002e698                _LAD_Client_verbose
+ .bss           0x000000000002e6a1        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+ .bss           0x000000000002e6a1        0x0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+ .bss           0x000000000002e6a1        0x1 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+                0x000000000002e6a1                _SocketFxns_verbose
+ *fill*         0x000000000002e6a2        0x2 
+ .bss           0x000000000002e6a4        0x4 /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+ .bss           0x000000000002e6a8        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a(elf-init.oS)
+ .bss           0x000000000002e6a8        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+ .bss           0x000000000002e6a8        0x0 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crtn.o
+ *(COMMON)
+ COMMON         0x000000000002e6a8        0xc /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+                0x000000000002e6a8                _GateHWSpinlock_cfgParams
+ COMMON         0x000000000002e6b4      0x174 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+                0x000000000002e6b4                _MultiProc_cfg
+                0x000000000002e828                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000002e828                _bss_end__ = .
+                0x000000000002e828                __bss_end__ = .
+                0x000000000002e828                . = ALIGN (0x4)
+                0x000000000002e828                . = SEGMENT_START ("ldata-segment", .)
+                0x000000000002e828                . = ALIGN (0x4)
+                0x000000000002e828                __end__ = .
+                0x000000000002e828                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x000000000002e828                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2d
+ *(.comment)
+ .comment       0x0000000000000000       0x2d /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+                                         0x2e (size before relaxing)
+ .comment       0x000000000000002d       0x2e /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+ .comment       0x000000000000002d       0x2e bin/debug/obj/main_host.ov7A
+ .comment       0x000000000000002d       0x2e bin/debug/obj/App.ov7A
+ .comment       0x000000000000002d       0x2e /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+ .comment       0x000000000000002d       0x2e /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+ .comment       0x000000000000002d       0x2e /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+ .comment       0x000000000000002d       0x2e /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+ .comment       0x000000000000002d       0x2e /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(HeapStd.o)
+ .comment       0x000000000000002d       0x2e /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+ .comment       0x000000000000002d       0x2e /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+ .comment       0x000000000000002d       0x2e /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+ .comment       0x000000000000002d       0x2e /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+ .comment       0x000000000000002d       0x2e /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+ .comment       0x000000000000002d       0x2e /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+ .comment       0x000000000000002d       0x2e /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+ .comment       0x000000000000002d       0x2e /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+ .comment       0x000000000000002d       0x2e /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+ .comment       0x000000000000002d       0x2e /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a(elf-init.oS)
+ .comment       0x000000000000002d       0x2e /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+
+.ARM.attributes
+                0x0000000000000000       0x33
+ .ARM.attributes
+                0x0000000000000000       0x33 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+ .ARM.attributes
+                0x0000000000000033       0x23 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crti.o
+ .ARM.attributes
+                0x0000000000000056       0x33 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+ .ARM.attributes
+                0x0000000000000089       0x33 bin/debug/obj/main_host.ov7A
+ .ARM.attributes
+                0x00000000000000bc       0x33 bin/debug/obj/App.ov7A
+ .ARM.attributes
+                0x00000000000000ef       0x33 /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+ .ARM.attributes
+                0x0000000000000122       0x33 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+ .ARM.attributes
+                0x0000000000000155       0x33 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+ .ARM.attributes
+                0x0000000000000188       0x33 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+ .ARM.attributes
+                0x00000000000001bb       0x33 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(HeapStd.o)
+ .ARM.attributes
+                0x00000000000001ee       0x33 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+ .ARM.attributes
+                0x0000000000000221       0x33 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+ .ARM.attributes
+                0x0000000000000254       0x33 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+ .ARM.attributes
+                0x0000000000000287       0x33 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+ .ARM.attributes
+                0x00000000000002ba       0x33 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+ .ARM.attributes
+                0x00000000000002ed       0x33 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+ .ARM.attributes
+                0x0000000000000320       0x33 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+ .ARM.attributes
+                0x0000000000000353       0x33 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+ .ARM.attributes
+                0x0000000000000386       0x33 /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+ .ARM.attributes
+                0x00000000000003b9       0x35 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a(elf-init.oS)
+ .ARM.attributes
+                0x00000000000003ee       0x33 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+ .ARM.attributes
+                0x0000000000000421       0x23 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x2b0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x38 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+ .debug_aranges
+                0x0000000000000038       0x30 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crti.o
+ .debug_aranges
+                0x0000000000000068       0x20 bin/debug/obj/main_host.ov7A
+ .debug_aranges
+                0x0000000000000088       0x20 bin/debug/obj/App.ov7A
+ .debug_aranges
+                0x00000000000000a8       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+ .debug_aranges
+                0x0000000000000108       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+ .debug_aranges
+                0x0000000000000128       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(HeapStd.o)
+ .debug_aranges
+                0x0000000000000148       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+ .debug_aranges
+                0x0000000000000168       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+ .debug_aranges
+                0x0000000000000188       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+ .debug_aranges
+                0x00000000000001a8       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+ .debug_aranges
+                0x00000000000001c8       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+ .debug_aranges
+                0x00000000000001e8       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+ .debug_aranges
+                0x0000000000000208       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+ .debug_aranges
+                0x0000000000000228       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+ .debug_aranges
+                0x0000000000000248       0x20 /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+ .debug_aranges
+                0x0000000000000268       0x20 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a(elf-init.oS)
+ .debug_aranges
+                0x0000000000000288       0x28 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crtn.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x15d3e
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x164 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+ .debug_info    0x0000000000000164       0xd7 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crti.o
+ .debug_info    0x000000000000023b      0x551 bin/debug/obj/main_host.ov7A
+ .debug_info    0x000000000000078c      0x7ab bin/debug/obj/App.ov7A
+ .debug_info    0x0000000000000f37     0x2433 /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+ .debug_info    0x000000000000336a     0x34f3 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+ .debug_info    0x000000000000685d     0x2468 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+ .debug_info    0x0000000000008cc5     0x216f /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+ .debug_info    0x000000000000ae34      0x2a5 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(HeapStd.o)
+ .debug_info    0x000000000000b0d9     0x28e5 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+ .debug_info    0x000000000000d9be     0x1ad2 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+ .debug_info    0x000000000000f490     0x12d9 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+ .debug_info    0x0000000000010769      0x708 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+ .debug_info    0x0000000000010e71     0x1fc2 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+ .debug_info    0x0000000000012e33      0x3ec /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+ .debug_info    0x000000000001321f      0x1ff /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+ .debug_info    0x000000000001341e      0xa74 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+ .debug_info    0x0000000000013e92     0x1c4c /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+ .debug_info    0x0000000000015ade      0x189 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a(elf-init.oS)
+ .debug_info    0x0000000000015c67       0xd7 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crtn.o
+
+.debug_abbrev   0x0000000000000000     0x316e
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x52 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+ .debug_abbrev  0x0000000000000052       0x12 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crti.o
+ .debug_abbrev  0x0000000000000064      0x172 bin/debug/obj/main_host.ov7A
+ .debug_abbrev  0x00000000000001d6      0x1b1 bin/debug/obj/App.ov7A
+ .debug_abbrev  0x0000000000000387      0x4db /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+ .debug_abbrev  0x0000000000000862      0x530 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+ .debug_abbrev  0x0000000000000d92      0x320 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+ .debug_abbrev  0x00000000000010b2      0x443 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+ .debug_abbrev  0x00000000000014f5      0x142 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(HeapStd.o)
+ .debug_abbrev  0x0000000000001637      0x518 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+ .debug_abbrev  0x0000000000001b4f      0x426 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+ .debug_abbrev  0x0000000000001f75      0x293 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+ .debug_abbrev  0x0000000000002208      0x25b /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+ .debug_abbrev  0x0000000000002463      0x3ea /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+ .debug_abbrev  0x000000000000284d      0x187 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+ .debug_abbrev  0x00000000000029d4      0x10d /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+ .debug_abbrev  0x0000000000002ae1      0x1e1 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+ .debug_abbrev  0x0000000000002cc2      0x382 /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+ .debug_abbrev  0x0000000000003044      0x118 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a(elf-init.oS)
+ .debug_abbrev  0x000000000000315c       0x12 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crtn.o
+
+.debug_line     0x0000000000000000     0x5049
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x80 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+ .debug_line    0x0000000000000080       0x6c /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crti.o
+ .debug_line    0x00000000000000ec      0x2f6 bin/debug/obj/main_host.ov7A
+ .debug_line    0x00000000000003e2      0x305 bin/debug/obj/App.ov7A
+ .debug_line    0x00000000000006e7      0x8d3 /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+ .debug_line    0x0000000000000fba      0xa29 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+ .debug_line    0x00000000000019e3      0x8eb /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+ .debug_line    0x00000000000022ce      0x605 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+ .debug_line    0x00000000000028d3      0x194 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(HeapStd.o)
+ .debug_line    0x0000000000002a67      0x860 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+ .debug_line    0x00000000000032c7      0x53f /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+ .debug_line    0x0000000000003806      0x362 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+ .debug_line    0x0000000000003b68      0x1d9 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+ .debug_line    0x0000000000003d41      0x5b5 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+ .debug_line    0x00000000000042f6      0x1dc /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+ .debug_line    0x00000000000044d2       0xf6 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+ .debug_line    0x00000000000045c8      0x427 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+ .debug_line    0x00000000000049ef      0x4d0 /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+ .debug_line    0x0000000000004ebf      0x136 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a(elf-init.oS)
+ .debug_line    0x0000000000004ff5       0x54 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crtn.o
+
+.debug_frame    0x0000000000000000     0x1698
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x80 bin/debug/obj/main_host.ov7A
+ .debug_frame   0x0000000000000080       0xa4 bin/debug/obj/App.ov7A
+ .debug_frame   0x0000000000000124      0x1d4 /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+ .debug_frame   0x00000000000002f8      0x3d8 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+ .debug_frame   0x00000000000006d0      0x308 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+ .debug_frame   0x00000000000009d8      0x130 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+ .debug_frame   0x0000000000000b08       0x60 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(HeapStd.o)
+ .debug_frame   0x0000000000000b68      0x294 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+ .debug_frame   0x0000000000000dfc      0x128 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+ .debug_frame   0x0000000000000f24       0x40 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+ .debug_frame   0x0000000000000f64       0x7c /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+ .debug_frame   0x0000000000000fe0      0x108 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+ .debug_frame   0x00000000000010e8       0xa4 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+ .debug_frame   0x000000000000118c       0x20 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+ .debug_frame   0x00000000000011ac       0x6c /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+ .debug_frame   0x0000000000001218      0x43c /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+ .debug_frame   0x0000000000001654       0x44 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a(elf-init.oS)
+
+.debug_str      0x0000000000000000     0x32cd
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x1d7 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crt1.o
+                                        0x217 (size before relaxing)
+ .debug_str     0x00000000000001d7      0x354 bin/debug/obj/main_host.ov7A
+                                        0x42c (size before relaxing)
+ .debug_str     0x000000000000052b      0x211 bin/debug/obj/App.ov7A
+                                        0x5aa (size before relaxing)
+ .debug_str     0x000000000000073c      0xaa4 /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+                                        0xf5b (size before relaxing)
+ .debug_str     0x00000000000011e0      0xda7 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+                                       0x17dd (size before relaxing)
+ .debug_str     0x0000000000001f87      0x146 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+                                        0xf46 (size before relaxing)
+ .debug_str     0x00000000000020cd      0x226 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+                                       0x133e (size before relaxing)
+ .debug_str     0x00000000000022f3       0x72 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(HeapStd.o)
+                                        0x23f (size before relaxing)
+ .debug_str     0x0000000000002365      0x50b /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+                                       0x1528 (size before relaxing)
+ .debug_str     0x0000000000002870      0x153 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+                                       0x111d (size before relaxing)
+ .debug_str     0x00000000000029c3      0x153 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+                                        0xd87 (size before relaxing)
+ .debug_str     0x00000000000029c3       0xb0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+                                        0x525 (size before relaxing)
+ .debug_str     0x0000000000002a73      0x25b /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+                                       0x123e (size before relaxing)
+ .debug_str     0x0000000000002cce       0xa0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+                                        0x338 (size before relaxing)
+ .debug_str     0x0000000000002d6e       0x10 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+                                        0x23b (size before relaxing)
+ .debug_str     0x0000000000002d7e       0x33 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+                                        0x6ea (size before relaxing)
+ .debug_str     0x0000000000002db1      0x396 /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+                                        0x799 (size before relaxing)
+ .debug_str     0x0000000000003147      0x186 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a(elf-init.oS)
+                                        0x25f (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x6c1f
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0xdc8 /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+ .debug_loc     0x0000000000000dc8     0x1956 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+ .debug_loc     0x000000000000271e      0xf9d /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(NameServer.o)
+ .debug_loc     0x00000000000036bb      0x6ec /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(Ipc.o)
+ .debug_loc     0x0000000000003da7       0x84 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(HeapStd.o)
+ .debug_loc     0x0000000000003e2b      0xd82 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+ .debug_loc     0x0000000000004bad      0x4cd /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+ .debug_loc     0x000000000000507a       0xcf /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MultiProc.o)
+ .debug_loc     0x0000000000005149      0x1c1 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMutex.o)
+ .debug_loc     0x000000000000530a      0x623 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+ .debug_loc     0x000000000000592d       0xed /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc.o)
+ .debug_loc     0x0000000000005a1a       0x2c /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(MultiProc_app.o)
+ .debug_loc     0x0000000000005a46      0x1f0 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(SocketFxns.o)
+ .debug_loc     0x0000000000005c36      0xf0c /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+ .debug_loc     0x0000000000006b42       0xdd /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/./libc_nonshared.a(elf-init.oS)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x2c8
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x28 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crti.o
+ .debug_ranges  0x0000000000000028       0x90 /home/am57x/rtos/ipc_3_47_01_00/linux/src/transport/.libs/libtitransportrpmsg.a(TransportRpmsg.o)
+ .debug_ranges  0x00000000000000b8       0x88 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(MessageQ.o)
+ .debug_ranges  0x0000000000000140       0x60 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateMP.o)
+ .debug_ranges  0x00000000000001a0       0x60 /home/am57x/rtos/ipc_3_47_01_00/linux/src/api/.libs/libtiipc.a(GateHWSpinlock.o)
+ .debug_ranges  0x0000000000000200       0x90 /home/am57x/rtos/ipc_3_47_01_00/linux/src/utils/.libs/libtiipcutils.a(LAD_client.o)
+ .debug_ranges  0x0000000000000290       0x18 /home/am57x/app/messageq-cmem-fft/ludev/__install/lib/libticmem.a(cmem.o)
+ .debug_ranges  0x00000000000002a8       0x20 /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/6.2.1/crtn.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(bin/debug/app_host elf32-littlearm)
