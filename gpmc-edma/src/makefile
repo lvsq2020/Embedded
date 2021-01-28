@@ -58,9 +58,9 @@ help:
 # setup install goal
 ifeq (install,$(MAKECMDGOALS))
 ifeq (,$(EXEC_DIR))
-EXEC_DIR=$(CURDIR)/install
+EXEC_DIR=$(CURDIR)
 endif
-override EXEC_DIR:=$(EXEC_DIR)/tl-messageq-edma-test
+override EXEC_DIR:=$(EXEC_DIR)
 endif
 
 install: $(PROCLIST) $(addsuffix _install,$(PROCLIST))

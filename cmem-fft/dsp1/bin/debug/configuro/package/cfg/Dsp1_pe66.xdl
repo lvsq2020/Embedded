@@ -9,15 +9,15 @@
  */
 
 
--l"/home/am57x/app/FFT/dsp1/bin/debug/configuro/package/cfg/Dsp1_pe66.oe66"
--l"/home/am57x/app/FFT/dsp1/bin/debug/configuro/package/cfg/Dsp1_pe66.src/ipc/ipc.ae66"
--l"/home/am57x/rtos/ipc_3_47_01_00/packages/ti/pm/lib/debug/ti.pm_null.ae66"
--l"/home/am57x/app/FFT/dsp1/bin/debug/configuro/package/cfg/Dsp1_pe66.src/utils/utils.ae66"
--l"/home/am57x/rtos/ipc_3_47_01_00/packages/ti/deh/lib/debug/ti.deh_vayu.ae66"
--l"/home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/rts6000/lib/ti.targets.rts6000.ae66"
--l"/home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/rts6000/lib/boot.ae66"
--l"/home/am57x/app/FFT/dsp1/bin/debug/configuro/package/cfg/Dsp1_pe66.src/sysbios/sysbios.ae66"
--l"/home/am57x/rtos/ipc_3_47_01_00/packages/ti/trace/lib/debug/ti.trace.ae66"
+-l"/home/louis/Embedded/cmem-fft/dsp1/bin/debug/configuro/package/cfg/Dsp1_pe66.oe66"
+-l"/home/louis/Embedded/cmem-fft/dsp1/bin/debug/configuro/package/cfg/Dsp1_pe66.src/ipc/ipc.ae66"
+-l"/opt/ti/ipc_3_47_01_00/packages/ti/pm/lib/debug/ti.pm_null.ae66"
+-l"/home/louis/Embedded/cmem-fft/dsp1/bin/debug/configuro/package/cfg/Dsp1_pe66.src/utils/utils.ae66"
+-l"/opt/ti/ipc_3_47_01_00/packages/ti/deh/lib/debug/ti.deh_vayu.ae66"
+-l"/opt/ti/bios_6_52_00_12/packages/ti/targets/rts6000/lib/ti.targets.rts6000.ae66"
+-l"/opt/ti/bios_6_52_00_12/packages/ti/targets/rts6000/lib/boot.ae66"
+-l"/home/louis/Embedded/cmem-fft/dsp1/bin/debug/configuro/package/cfg/Dsp1_pe66.src/sysbios/sysbios.ae66"
+-l"/opt/ti/ipc_3_47_01_00/packages/ti/trace/lib/debug/ti.trace.ae66"
 
 --retain="*(xdc.meta)"
 

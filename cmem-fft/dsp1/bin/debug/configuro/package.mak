@@ -15,94 +15,94 @@ XDCCFGDIR = package/cfg/
 # in the event that some included BOM script changes.
 #
 ifneq (clean,$(MAKECMDGOALS))
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/utils.js:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/utils.js
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/xdc.tci:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/xdc.tci
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/template.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/template.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/om2.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/om2.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/xmlgen.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/xmlgen.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/xmlgen2.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/xmlgen2.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/Warnings.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/Warnings.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/IPackage.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/IPackage.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/package.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/package.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/services/global/Clock.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/services/global/Clock.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/services/global/Trace.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/services/global/Trace.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/bld.js:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/bld.js
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/BuildEnvironment.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/BuildEnvironment.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/PackageContents.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/PackageContents.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/_gen.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/_gen.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/Library.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/Library.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/Executable.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/Executable.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/Repository.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/Repository.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/Configuration.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/Configuration.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/Script.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/Script.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/Manifest.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/Manifest.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/Utils.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/Utils.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/ITarget.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/ITarget.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/ITarget2.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/ITarget2.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/ITarget3.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/ITarget3.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/ITargetFilter.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/ITargetFilter.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/package.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/bld/package.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/utils.js:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/utils.js
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/xdc.tci:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/xdc.tci
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/template.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/template.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/om2.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/om2.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/xmlgen.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/xmlgen.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/xmlgen2.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/xmlgen2.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/Warnings.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/Warnings.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/IPackage.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/IPackage.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/package.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/package.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/services/global/Clock.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/services/global/Clock.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/services/global/Trace.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/services/global/Trace.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/bld.js:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/bld.js
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/BuildEnvironment.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/BuildEnvironment.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/PackageContents.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/PackageContents.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/_gen.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/_gen.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/Library.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/Library.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/Executable.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/Executable.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/Repository.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/Repository.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/Configuration.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/Configuration.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/Script.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/Script.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/Manifest.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/Manifest.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/Utils.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/Utils.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/ITarget.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/ITarget.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/ITarget2.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/ITarget2.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/ITarget3.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/ITarget3.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/ITargetFilter.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/ITargetFilter.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/package.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/bld/package.xs
 package.mak: config.bld
-/home/am57x/app/FFT/shared/config.bld:
-package.mak: /home/am57x/app/FFT/shared/config.bld
-/home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/ITarget.xs:
-package.mak: /home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/ITarget.xs
-/home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/C28_large.xs:
-package.mak: /home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/C28_large.xs
-/home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/C28_float.xs:
-package.mak: /home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/C28_float.xs
-/home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/package.xs:
-package.mak: /home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/package.xs
-/home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/elf/ITarget.xs:
-package.mak: /home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/elf/ITarget.xs
-/home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/elf/C28_float.xs:
-package.mak: /home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/elf/C28_float.xs
-/home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/elf/package.xs:
-package.mak: /home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/elf/package.xs
+/home/louis/Embedded/cmem-fft/shared/config.bld:
+package.mak: /home/louis/Embedded/cmem-fft/shared/config.bld
+/opt/ti/bios_6_52_00_12/packages/ti/targets/ITarget.xs:
+package.mak: /opt/ti/bios_6_52_00_12/packages/ti/targets/ITarget.xs
+/opt/ti/bios_6_52_00_12/packages/ti/targets/C28_large.xs:
+package.mak: /opt/ti/bios_6_52_00_12/packages/ti/targets/C28_large.xs
+/opt/ti/bios_6_52_00_12/packages/ti/targets/C28_float.xs:
+package.mak: /opt/ti/bios_6_52_00_12/packages/ti/targets/C28_float.xs
+/opt/ti/bios_6_52_00_12/packages/ti/targets/package.xs:
+package.mak: /opt/ti/bios_6_52_00_12/packages/ti/targets/package.xs
+/opt/ti/bios_6_52_00_12/packages/ti/targets/elf/ITarget.xs:
+package.mak: /opt/ti/bios_6_52_00_12/packages/ti/targets/elf/ITarget.xs
+/opt/ti/bios_6_52_00_12/packages/ti/targets/elf/C28_float.xs:
+package.mak: /opt/ti/bios_6_52_00_12/packages/ti/targets/elf/C28_float.xs
+/opt/ti/bios_6_52_00_12/packages/ti/targets/elf/package.xs:
+package.mak: /opt/ti/bios_6_52_00_12/packages/ti/targets/elf/package.xs
 package.mak: package.bld
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/compiler.opt.xdt:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/compiler.opt.xdt
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/services/io/File.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/services/io/File.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/services/io/package.xs:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/services/io/package.xs
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/compiler.defs.xdt:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/compiler.defs.xdt
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/custom.mak.exe.xdt:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/custom.mak.exe.xdt
-/home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/package.xs.xdt:
-package.mak: /home/am57x/rtos/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/package.xs.xdt
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/compiler.opt.xdt:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/compiler.opt.xdt
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/services/io/File.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/services/io/File.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/services/io/package.xs:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/services/io/package.xs
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/compiler.defs.xdt:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/compiler.defs.xdt
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/custom.mak.exe.xdt:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/custom.mak.exe.xdt
+/opt/ti/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/package.xs.xdt:
+package.mak: /opt/ti/xdctools_3_50_03_33_core/packages/xdc/tools/configuro/template/package.xs.xdt
 endif
 
-ti.targets.elf.C66.rootDir ?= /home/am57x/rtos/ti-cgt-c6000_8.2.2
-ti.targets.elf.packageBase ?= /home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/elf/
+ti.targets.elf.C66.rootDir ?= /opt/ti/ti-cgt-c6000_8.2.2
+ti.targets.elf.packageBase ?= /opt/ti/bios_6_52_00_12/packages/ti/targets/elf/
 .PRECIOUS: $(XDCCFGDIR)/%.oe66
 .PHONY: all,e66 .dlls,e66 .executables,e66 test,e66
 all,e66: .executables,e66

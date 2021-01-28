@@ -4266,7 +4266,7 @@ __FAR__ const xdc_SizeT ti_sysbios_xdcruntime_GateThreadSupport_Instance_State_g
  *  Define absolute path prefix for this executable's
  *  configuration generated files.
  */
-xdc__META(__ASM__, "@(#)__ASM__ = /home/am57x/app/FFT/dsp1/bin/debug/configuro/package/cfg/Dsp1_pe66");
+xdc__META(__ASM__, "@(#)__ASM__ = /home/louis/Embedded/cmem-fft/dsp1/bin/debug/configuro/package/cfg/Dsp1_pe66");
 
 /*
  *  ======== __ISA__ ========

@@ -11,7 +11,7 @@ var makeAssembly = false;
 var Executable = xdc.module('xdc.bld.Executable');
 
 var exeOpts = new Executable.Attrs({
-        cfgScript: '/home/am57x/app/FFT/dsp1/Dsp1.cfg',
+        cfgScript: '/home/louis/Embedded/cmem-fft/dsp1/Dsp1.cfg',
         profile: 'debug',
         cfgHome: 'configuro',
 });
@@ -41,7 +41,7 @@ else {
 
 var thisObj = {
     cfg:        'Dsp1.cfg',
-    outputPath: '/home/am57x/app/FFT/dsp1/bin/debug/configuro',
+    outputPath: '/home/louis/Embedded/cmem-fft/dsp1/bin/debug/configuro',
     exeName:    'Dsp1' + suffix,
     exeIntName: 'Dsp1' + suffix.replace('.', '_'),
     targ:       targ,

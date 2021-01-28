@@ -7,5 +7,5 @@
 #       or equal to the generated config header
 #
 linker.cmd: package/cfg/Dsp1_pe66.xdl
-	$(SED) 's"^\"\(package/cfg/Dsp1_pe66cfg.cmd\)\"$""\"/home/am57x/app/FFT/dsp1/bin/debug/configuro/\1\""' package/cfg/Dsp1_pe66.xdl > $@
+	$(SED) 's"^\"\(package/cfg/Dsp1_pe66cfg.cmd\)\"$""\"/home/louis/Embedded/cmem-fft/dsp1/bin/debug/configuro/\1\""' package/cfg/Dsp1_pe66.xdl > $@
 	-$(SETDATE) -r:max package/cfg/Dsp1_pe66.h compiler.opt compiler.opt.defs

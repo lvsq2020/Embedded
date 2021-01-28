@@ -1,7 +1,7 @@
 /* THIS IS A GENERATED FILE -- DO NOT EDIT */
 
 /* configuro was passed a config.bld file */
-xdc.includeFile("/home/am57x/app/FFT/shared/config.bld");
+xdc.includeFile("/home/louis/Embedded/cmem-fft/shared/config.bld");
 var target;    /* the target used for this build */
 
 /* configuro was passed the target's name explicitly */
@@ -18,6 +18,6 @@ if (!(target instanceof xdc.module("xdc.bld.ITarget").Module)) {
 }
 
 /* configuro was passed the target's rootDir explicitly */
-target.rootDir = '/home/am57x/rtos/ti-cgt-c6000_8.2.2';
+target.rootDir = '/opt/ti/ti-cgt-c6000_8.2.2';
 
 Build.targets = [target];

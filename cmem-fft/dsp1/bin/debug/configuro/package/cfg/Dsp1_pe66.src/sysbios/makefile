@@ -1,24 +1,24 @@
 
-XOPTS = -I"/home/am57x/rtos/xdctools_3_50_03_33_core/packages/" -Dxdc_target_types__=/home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/elf/std.h -Dxdc_target_name__=C66
+XOPTS = -I"/opt/ti/xdctools_3_50_03_33_core/packages/" -Dxdc_target_types__=/opt/ti/bios_6_52_00_12/packages/ti/targets/elf/std.h -Dxdc_target_name__=C66
 
-vpath % /home/am57x/rtos/bios_6_52_00_12/packages/ti/sysbios/
-vpath %.c /home/am57x/rtos/xdctools_3_50_03_33_core/packages/
+vpath % /opt/ti/bios_6_52_00_12/packages/ti/sysbios/
+vpath %.c /opt/ti/xdctools_3_50_03_33_core/packages/
 
 CCOPTS    = -mv6600 --abi=eabi -q -mi10 -mo -pdr -pden -pds=238 -pds=880 -pds1110  --program_level_compile -g  -Dti_sysbios_family_c64p_Exception_enableExternalMPC__D=FALSE -Dti_sysbios_family_c64p_Exception_enablePrint__D=TRUE -Dti_sysbios_knl_Task_minimizeLatency__D=FALSE -Dti_sysbios_knl_Clock_stopCheckNext__D=FALSE -Dti_sysbios_hal_Core_numCores__D=1
 
-XDC_ROOT  = /home/am57x/rtos/xdctools_3_50_03_33_core/packages/
+XDC_ROOT  = /opt/ti/xdctools_3_50_03_33_core/packages/
 
-BIOS_ROOT = /home/am57x/rtos/bios_6_52_00_12/packages/ti/sysbios/
+BIOS_ROOT = /opt/ti/bios_6_52_00_12/packages/ti/sysbios/
 
 BIOS_DEFS =  -Dti_sysbios_BIOS_swiEnabled__D=TRUE -Dti_sysbios_BIOS_taskEnabled__D=TRUE -Dti_sysbios_BIOS_clockEnabled__D=TRUE -Dti_sysbios_BIOS_runtimeCreatesEnabled__D=TRUE -Dti_sysbios_knl_Task_moduleStateCheckFlag__D=FALSE -Dti_sysbios_knl_Task_objectCheckFlag__D=FALSE -Dti_sysbios_hal_Hwi_DISABLE_ALL_HOOKS -Dti_sysbios_knl_Swi_DISABLE_ALL_HOOKS -Dti_sysbios_BIOS_smpEnabled__D=FALSE -Dti_sysbios_Build_useHwiMacros -Dti_sysbios_Build_useIndirectReferences=FALSE -Dti_sysbios_knl_Swi_numPriorities__D=16 -Dti_sysbios_knl_Task_deleteTerminatedTasks__D=FALSE -Dti_sysbios_knl_Task_numPriorities__D=16 -Dti_sysbios_knl_Task_checkStackFlag__D=TRUE -Dti_sysbios_knl_Task_initStackFlag__D=TRUE -Dti_sysbios_knl_Task_DISABLE_ALL_HOOKS -Dti_sysbios_knl_Clock_TICK_SOURCE=ti_sysbios_knl_Clock_TickSource_USER -Dti_sysbios_knl_Clock_TICK_MODE=ti_sysbios_knl_Clock_TickMode_PERIODIC -Dti_sysbios_hal_Core_delegate_getId=ti_sysbios_hal_CoreNull_getId__E -Dti_sysbios_hal_Core_delegate_interruptCore=ti_sysbios_hal_CoreNull_interruptCore__E -Dti_sysbios_hal_Core_delegate_lock=ti_sysbios_hal_CoreNull_lock__E -Dti_sysbios_hal_Core_delegate_unlock=ti_sysbios_hal_CoreNull_unlock__E -Dti_sysbios_hal_Core_numCores__D=1 -Dti_sysbios_hal_CoreNull_numCores__D=1 -Dti_sysbios_utils_Load_taskEnabled__D=TRUE -Dti_sysbios_utils_Load_swiEnabled__D=FALSE -Dti_sysbios_utils_Load_hwiEnabled__D=FALSE -Dti_sysbios_family_c64p_Hwi_dispatcherSwiSupport__D=TRUE -Dti_sysbios_family_c64p_Hwi_dispatcherTaskSupport__D=TRUE -Dti_sysbios_family_c64p_Hwi_dispatcherAutoNestingSupport__D=TRUE -Dti_sysbios_family_c64p_Hwi_dispatcherIrpTrackingSupport__D=TRUE -Dti_sysbios_knl_Semaphore_supportsEvents__D=FALSE -Dti_sysbios_knl_Semaphore_supportsPriority__D=TRUE 
 
-BIOS_INC  = -I"/home/am57x/rtos/bios_6_52_00_12/packages/"
+BIOS_INC  = -I"/opt/ti/bios_6_52_00_12/packages/"
 
-INCS =  $(BIOS_INC) -I"/home/am57x/rtos/bios_6_52_00_12/packages/" -I"/home/am57x/rtos/ipc_3_47_01_00/packages/" -I"/home/am57x/rtos/xdctools_3_50_03_33_core/packages/" -I"/home/am57x/rtos/xdctools_3_50_03_33_core/packages/" -I"../" -I"/packages//" 
+INCS =  $(BIOS_INC) -I"/opt/ti/bios_6_52_00_12/packages/" -I"/opt/ti/ipc_3_47_01_00/packages/" -I"/opt/ti/xdctools_3_50_03_33_core/packages/" -I"/opt/ti/xdctools_3_50_03_33_core/packages/" -I"../" -I"/packages//" 
 
-CC = /home/am57x/rtos/ti-cgt-c6000_8.2.2/bin/cl6x -c $(CCOPTS) -I /home/am57x/rtos/ti-cgt-c6000_8.2.2/include
-ASM = /home/am57x/rtos/ti-cgt-c6000_8.2.2/bin/cl6x -c $(CCOPTS) -I /home/am57x/rtos/ti-cgt-c6000_8.2.2/include
-AR = /home/am57x/rtos/ti-cgt-c6000_8.2.2/bin/ar6x rq
+CC = /opt/ti/ti-cgt-c6000_8.2.2/bin/cl6x -c $(CCOPTS) -I /opt/ti/ti-cgt-c6000_8.2.2/include
+ASM = /opt/ti/ti-cgt-c6000_8.2.2/bin/cl6x -c $(CCOPTS) -I /opt/ti/ti-cgt-c6000_8.2.2/include
+AR = /opt/ti/ti-cgt-c6000_8.2.2/bin/ar6x rq
 
 DEL = rm -f
 CP = cp -f

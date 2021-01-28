@@ -1,19 +1,19 @@
-vpath % /home/am57x/rtos/ipc_3_47_01_00/packages/
-vpath %.c /home/am57x/rtos/xdctools_3_50_03_33_core/packages/
+vpath % /opt/ti/ipc_3_47_01_00/packages/
+vpath %.c /opt/ti/xdctools_3_50_03_33_core/packages/
 
-XOPTS = -I"/home/am57x/rtos/xdctools_3_50_03_33_core/packages/" -Dxdc_target_types__=/home/am57x/rtos/bios_6_52_00_12/packages/ti/targets/elf/std.h -Dxdc_target_name__=C66
+XOPTS = -I"/opt/ti/xdctools_3_50_03_33_core/packages/" -Dxdc_target_types__=/opt/ti/bios_6_52_00_12/packages/ti/targets/elf/std.h -Dxdc_target_name__=C66
 
 CCOPTS = -mv6600 --abi=eabi -q -mi10 -mo -pdr -pden -pds=238 -pds=880 -pds1110 --mem_model:const=data --mem_model:data=far  --program_level_compile -g  --gcc
 
-IPC_ROOT = /home/am57x/rtos/ipc_3_47_01_00/packages/
+IPC_ROOT = /opt/ti/ipc_3_47_01_00/packages/
 
 BUILD_DEFS =  -Dti_sdo_ipc_MessageQ_traceFlag__D=FALSE -DVAYU -DDSP -DRPMSG_NS_2_0 -Dti_sdo_ipc_family_ti81xx_InterruptDucati_videoProcId__D=65535 -Dti_sdo_ipc_family_ti81xx_InterruptDucati_hostProcId__D=65535 -Dti_sdo_ipc_family_ti81xx_InterruptDucati_vpssProcId__D=65535 -Dti_sdo_ipc_family_ti81xx_InterruptDucati_dspProcId__D=65535 -Dti_sdo_ipc_family_ti81xx_InterruptDucati_ducatiCtrlBaseAddr__D=1073745920 -Dti_sdo_ipc_family_ti81xx_InterruptDucati_mailboxBaseAddr__D=1208778752
 
-INCS = -I/home/am57x/rtos/ipc_3_47_01_00/packages -I/home/am57x/rtos/bios_6_52_00_12/packages
+INCS = -I/opt/ti/ipc_3_47_01_00/packages -I/opt/ti/bios_6_52_00_12/packages
 
-CC = /home/am57x/rtos/ti-cgt-c6000_8.2.2/bin/cl6x -c $(CCOPTS) --output_file=$@ -I /home/am57x/rtos/ti-cgt-c6000_8.2.2/include
-ASM = /home/am57x/rtos/ti-cgt-c6000_8.2.2/bin/cl6x -c $(CCOPTS) -I /home/am57x/rtos/ti-cgt-c6000_8.2.2/include
-AR = /home/am57x/rtos/ti-cgt-c6000_8.2.2/bin/ar6x rq
+CC = /opt/ti/ti-cgt-c6000_8.2.2/bin/cl6x -c $(CCOPTS) --output_file=$@ -I /opt/ti/ti-cgt-c6000_8.2.2/include
+ASM = /opt/ti/ti-cgt-c6000_8.2.2/bin/cl6x -c $(CCOPTS) -I /opt/ti/ti-cgt-c6000_8.2.2/include
+AR = /opt/ti/ti-cgt-c6000_8.2.2/bin/ar6x rq
 
 DEL = rm -f
 CP = cp -f

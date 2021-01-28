@@ -1,6 +1,6 @@
 #
 # This file was generated based on the configuration script:
-#     /home/am57x/app/FFT/dsp1/Dsp1.cfg
+#     /home/louis/Embedded/cmem-fft/dsp1/Dsp1.cfg
 #
 # This makefile may be included in other makefiles that need to build
 # the libraries containing the compiled source files generated as
@@ -14,7 +14,7 @@
 #
 # The absolute path to the generated source directory (at the time the
 # sources were generated) is:
-#    /home/am57x/app/FFT/dsp1/bin/debug/configuro/package/cfg/Dsp1_pe66.src
+#    /home/louis/Embedded/cmem-fft/dsp1/bin/debug/configuro/package/cfg/Dsp1_pe66.src
 #
 GEN_SRC_DIR ?= package/cfg/Dsp1_pe66.src
 

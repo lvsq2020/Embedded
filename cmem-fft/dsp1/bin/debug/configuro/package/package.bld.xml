@@ -7,7 +7,7 @@
         <srcFile name="package/cfg/Dsp1_pe66.c"/>
     </sources>
     <configscripts>
-        <srcFile name="/home/am57x/app/FFT/dsp1/Dsp1.cfg"/>
+        <srcFile name="/home/louis/Embedded/cmem-fft/dsp1/Dsp1.cfg"/>
     </configscripts>
     <makefiles>
         <srcFile name="package.mak" src="package.bld"/>
@@ -25,7 +25,7 @@
             platform="ti.platforms.simTCI6616"
             isa="66"
             suffix="e66"
-            rootDir="/home/am57x/rtos/ti-cgt-c6000_8.2.2"
+            rootDir="/opt/ti/ti-cgt-c6000_8.2.2"
             os="undefined"
             rts="ti.targets.rts6000">
             <model endian="little"
@@ -44,7 +44,7 @@
         isPartial="false"
         xCfgScript="package/cfg/Dsp1_pe66.cfg"
         xCfgPrefix="package/cfg/Dsp1_pe66"
-        cfgScript="/home/am57x/app/FFT/dsp1/Dsp1.cfg"
+        cfgScript="/home/louis/Embedded/cmem-fft/dsp1/Dsp1.cfg"
         cfgArgs="null"
         />
     </configurations>
@@ -56,7 +56,7 @@
         profile="debug"
         xCfgScript="package/cfg/Dsp1_pe66.cfg"
         xCfgPrefix="package/cfg/Dsp1_pe66"
-        cfgScript="/home/am57x/app/FFT/dsp1/Dsp1.cfg"
+        cfgScript="/home/louis/Embedded/cmem-fft/dsp1/Dsp1.cfg"
         cfgArgs="null"
         />
     </executables>

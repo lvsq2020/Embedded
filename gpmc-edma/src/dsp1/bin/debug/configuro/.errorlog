@@ -1,0 +1,5 @@
+js: "/opt/ti/pdk_am57xx_1_0_10/packages/ti/drv/gpio/package.xs", line 115: Error: 	Library not found: /opt/ti/pdk_am57xx_1_0_10/packages/ti/drv/gpio/./lib/am572x/c66/release/ti.drv.gpio.ae66
+gmake: *** [package/cfg/Dsp1_pe66.xdl] Error 1
+gmake: *** Deleting file `package/cfg/Dsp1_pe66.xdl'
+gmake: *** [package/cfg/Dsp1_pe66.xdl] Deleting file `package/cfg/Dsp1_pe66.h'
+gmake: *** [package/cfg/Dsp1_pe66.xdl] Deleting file `package/cfg/Dsp1_pe66.c'

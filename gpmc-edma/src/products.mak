@@ -58,7 +58,7 @@ endif
 # below.
 
 TOOLCHAIN_LONGNAME     = arm-linux-gnueabihf
-TOOLCHAIN_INSTALL_DIR  = /home/am57x/linux/linux-devkit/sysroots/x86_64-arago-linux/usr
+TOOLCHAIN_INSTALL_DIR  =$(CC_ARAGO)
 TOOLCHAIN_PREFIX       = $(TOOLCHAIN_INSTALL_DIR)/bin/$(TOOLCHAIN_LONGNAME)-
 
 #### BIOS-side dependencies ####
@@ -68,8 +68,10 @@ XDC_INSTALL_DIR        = ${XDC_INSTALL_PATH}
 
 #### BIOS-side toolchains ####
 ti.targets.arm.elf.M4  = $(TOOLCHAIN_PATH_M4)
-ti.targets.arm.elf.M4F = $(TOOLCHAIN_PATH_M4)
 ti.targets.elf.C66     = ${C6X_GEN_INSTALL_PATH}
+
+CMEM_INSTALL_DIR =/home/louis/Embedded/libcmem
+CMEM_LIB_INSTALL_DIR = $(CMEM_INSTALL_DIR)/lib
 
 # Use this goal to print your product variables.
 .show:

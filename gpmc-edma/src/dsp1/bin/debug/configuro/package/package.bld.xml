@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="configuro" version="" producerId="undefined">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="package/cfg/Dsp1_pe66.c"/>
+    </sources>
+    <configscripts>
+        <srcFile name="/home/louis/Embedded/gpmc-edma/src/dsp1/Dsp1.cfg"/>
+    </configscripts>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/cfg/Dsp1_pe66.mak" src="package.bld"/>
+        <srcFile name="package/cfg/Dsp1_pe66.oe66.dep" src="package/cfg/Dsp1_pe66.c"/>
+        <srcFile name="package/cfg/Dsp1_pe66.dep" src="package/cfg/Dsp1_pe66.cfg"/>
+        <srcFile name="package/cfg/Dsp1.xe66.mak" src="package.bld"/>
+        <srcFile name="package/rel/configuro.tar.dep" src="package/rel/configuro.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="ti.targets.elf.C66"
+            version="ti.targets.elf.C66{1,0,8.2,2"
+            rawVersion="8.2.2"
+            platform="ti.platforms.simTCI6616"
+            isa="66"
+            suffix="e66"
+            rootDir="/opt/ti/ti-cgt-c6000_8.2.2"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+    </targets>
+    <libraries>
+    </libraries>
+    <configurations>
+    <configuration name="Dsp1"
+        pname="Dsp1.pe66"
+        target="ti.targets.elf.C66"
+        platform="ti.platforms.evmDRA7XX:dsp1"
+        profile="debug"
+        isPartial="false"
+        xCfgScript="package/cfg/Dsp1_pe66.cfg"
+        xCfgPrefix="package/cfg/Dsp1_pe66"
+        cfgScript="/home/louis/Embedded/gpmc-edma/src/dsp1/Dsp1.cfg"
+        cfgArgs="null"
+        />
+    </configurations>
+    <executables>
+    <executable name="Dsp1"
+        pname="Dsp1.xe66"
+        target="ti.targets.elf.C66"
+        platform="ti.platforms.evmDRA7XX:dsp1"
+        profile="debug"
+        xCfgScript="package/cfg/Dsp1_pe66.cfg"
+        xCfgPrefix="package/cfg/Dsp1_pe66"
+        cfgScript="/home/louis/Embedded/gpmc-edma/src/dsp1/Dsp1.cfg"
+        cfgArgs="null"
+        />
+    </executables>
+    <tests>
+    <test exeName="Dsp1.xe66"
+        args=""
+        groupName="Dsp1.xe66"
+        refOutput="undefined"
+        refExitCode="0"
+        execArgs=""
+        />
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="configuro"
+        pname="configuro.tar"
+        label="default"
+    >
+        <file name="package/package.bld.xml"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>
